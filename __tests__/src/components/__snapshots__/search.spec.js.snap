@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search/> render 1`] = `
+<div
+  className="youtube"
+>
+  <div
+    className="group"
+  >
+    <input
+      autoComplete="off"
+      name="searchInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={true}
+      type="text"
+    />
+    <label
+      htmlFor="searchInput"
+    >
+      <span>
+        Search YouTube (or enter a YouTube Link)
+      </span>
+    </label>
+    <span
+      className="highlight"
+    />
+    <span
+      className="bar"
+    />
+  </div>
+  <div
+    className="youtube-items"
+  />
+</div>
+`;

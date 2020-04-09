@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav/> render 1`] = `
+<div
+  className="topbar"
+  style={
+    Object {
+      "backgroundColor": "#3b216a",
+    }
+  }
+>
+  <a
+    className="download-app"
+    href="http://www.kakapo.co/app.html"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <span>
+      Download Kakapo for iOS / Android, Desktop & Chrome!
+    </span>
+  </a>
+  <div
+    className="share"
+  >
+    <div
+      className="fb-share-button"
+      data-href="http://www.kakapo.co"
+      data-layout="button_count"
+    />
+    <a
+      className="twitter-share-button"
+      data-url="http://www.kakapo.co"
+      href="https://twitter.com/share"
+    >
+      Tweet
+    </a>
+  </div>
+</div>
+`;

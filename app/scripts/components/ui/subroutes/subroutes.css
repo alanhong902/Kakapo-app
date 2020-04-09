@@ -1,0 +1,52 @@
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.secondary-panel {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #f5f5f5;
+  overflow-y: scroll;
+  transition: width, top, height 0.2s ease;
+  z-index: 3;
+  min-height: 82px;
+
+  .inner {
+    padding: 20px;
+    transition: padding 0.2s ease;
+  }
+
+  &.with-close {
+    height: 400px;
+
+    .inner {
+      padding-top: 40px;
+    }
+  }
+
+  .icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 40rem) {
+  .secondary-panel {
+    width: 300px;
+    top: 35px;
+
+    &.with-close {
+      height: auto;
+    }
+  }
+}

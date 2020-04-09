@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Kakapo/> render 1`] = `
+<div
+  className="kakapo"
+>
+  <h5>
+    <span>
+      Add a sound from Kakapo.com
+    </span>
+  </h5>
+  <div
+    className=""
+  />
+</div>
+`;
+
+exports[`<Kakapo/> render items 1`] = `
+<div
+  className="kakapo"
+>
+  <h5>
+    <span>
+      Add a sound from Kakapo.com
+    </span>
+  </h5>
+  <div
+    className="kakapofavs-items"
+  >
+    <div
+      className="kakapo-item"
+      onClick={[Function]}
+      role="link"
+      tabIndex={-1}
+    >
+      <div
+        className="thumbnail"
+      >
+        <i
+          className="icon-null"
+        />
+      </div>
+      <span
+        className="title"
+      >
+        <span>
+          Thunder
+        </span>
+      </span>
+    </div>
+    <div
+      className="kakapo-item"
+      onClick={[Function]}
+      role="link"
+      tabIndex={-1}
+    >
+      <div
+        className="thumbnail"
+      >
+        <i
+          className="icon-null"
+        />
+      </div>
+      <span
+        className="title"
+      >
+        <span>
+          Thunder
+        </span>
+      </span>
+    </div>
+    <div
+      className="kakapo-item"
+      onClick={[Function]}
+      role="link"
+      tabIndex={-1}
+    >
+      <div
+        className="thumbnail"
+      >
+        <i
+          className="icon-null"
+        />
+      </div>
+      <span
+        className="title"
+      >
+        <span>
+          Thunder
+        </span>
+      </span>
+    </div>
+    <div
+      className="kakapo-item"
+      onClick={[Function]}
+      role="link"
+      tabIndex={-1}
+    >
+      <div
+        className="thumbnail"
+      >
+        <i
+          className="icon-null"
+        />
+      </div>
+      <span
+        className="title"
+      >
+        <span>
+          Thunder
+        </span>
+      </span>
+    </div>
+    <div
+      className="kakapo-item"
+      onClick={[Function]}
+      role="link"
+      tabIndex={-1}
+    >
+      <div
+        className="thumbnail"
+      >
+        <i
+          className="icon-null"
+        />
+      </div>
+      <span
+        className="title"
+      >
+        <span>
+          Thunder
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;

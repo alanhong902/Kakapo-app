@@ -1,0 +1,117 @@
+.media {
+  .media-opts {
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .divider {
+    background: color(#f5f5f5 blackness(30%));
+  }
+
+  .add-sounds-title {
+    display: none;
+  }
+
+  .option-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+  .option {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+      margin-right: 0;
+    }
+
+    span.text {
+      font-size: 14px;
+      line-height: 20px;
+      display: none;
+    }
+
+    i {
+      width: 42px;
+      height: 42px;
+      text-align: center;
+
+      &.icon-add {
+        top: 4px;
+        position: relative;
+      }
+
+      &.icon-add,
+      &.icon-settings,
+      &.icon-playlist {
+        font-size: 35px;
+        vertical-align: -webkit-baseline-middle;
+      }
+    }
+  }
+}
+
+.dropzone {
+  border: 2px dotted #ccc;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  text-align: center;
+  width: auto;
+
+  &.active {
+    border: 2px solid #333;
+  }
+}
+
+@media (max-width: 40rem) {
+  .media {
+    .divider {
+      display: inline-block;
+      width: 1px;
+      margin: 0 1rem;
+      height: 40px;
+      vertical-align: middle;
+    }
+  }
+}
+
+@media (min-width: 40rem) {
+  .media {
+    .divider {
+      height: 1px;
+      margin: 1rem 0;
+    }
+
+    .option-ul {
+      display: block;
+    }
+
+    .add-sounds-title {
+      display: block;
+    }
+
+    .option {
+      margin-right: 0;
+      margin-bottom: 1em;
+      display: block;
+
+      span.text {
+        display: inline-block;
+      }
+
+      i {
+        margin-right: 14px;
+      }
+
+      &.icon-add {
+        top: 0;
+      }
+    }
+  }
+}
