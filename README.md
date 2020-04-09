@@ -14,7 +14,7 @@ Tests using [Jest](https://github.com/facebook/jest) and a bit of [Enzyme](https
 
 Code coverage reporting provided by [Coveralls](https://coveralls.io/).
 
-<img src="https://raw.githubusercontent.com/alanhong902/Kakapo-assets/master/images/screenshots/web_app.jpg" />
+<img src="https://raw.githubusercontent.com/bluedaniel/Kakapo-assets/master/images/screenshots/web_app.jpg" />
 
 ## Install and run
 
